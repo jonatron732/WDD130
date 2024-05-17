@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+<style>
+    .container {
+        position: relative;
+        display: inline-block;
+    }
+    .container img {
+        display: block;
+        width: 300px;
+        height: auto;
+    }
+    .container .title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(#5CA1D7);
+        padding: 8px;
+        padding-left: 118px;
+        color: white;
+        transition: color 0.3s ease; 
+    }
+    .container .title:hover {
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+    <img src="Nelsonquotemodified.jpg" alt="image of a quote from President Nelson">
+    <div class="title">Education</div>
+    </div>
+</body>
+</html>
